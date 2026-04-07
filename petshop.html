@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PataFeliz – Pet Shop em Niterói, RJ</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,700&family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+
+
+</head>
+<body>
+
+  <!-- Blobs de fundo -->
+  <div class="blob blob-a"></div>
+  <div class="blob blob-b"></div>
+
+  <!-- ══ NAV ══════════════════════════════════════════ -->
+  <nav id="nav">
+    <div class="nav-wrap">
+      <a href="#hero" class="nav-brand">
+        <span class="paw">🐾</span> Pata<span>Feliz</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#historia">Nossa história</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#rodape">Contato</a></li>
+      </ul>
+
+      <button class="nav-pill" id="btn-nav-agendar">Agendar agora</button>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Menu mobile -->
+  <div class="mob-menu" id="mob-menu">
+    <a href="#historia">Nossa história</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#depoimentos">Depoimentos</a>
+    <a href="#rodape">Contato</a>
+    <a href="#agendar">📅 Agendar agora</a>
+  </div>
+
+  <!-- ══ HERO ═════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-left">
+      <div class="hero-status">
+        <span class="dot"></span>
+        Abertos hoje — 7h às 20h
+      </div>
+
+      <h1 class="hero-title">
+        Cuidamos do<br>
+        <em>seu melhor amigo</em>
+        <small>como se fosse o nosso.</small>
+      </h1>
+
+      <p class="hero-text">
+        A PataFeliz nasceu do amor por animais. Aqui, cada pet é recebido
+        pelo nome, com carinho de verdade — não é protocolo,
+        <strong>é jeito de ser</strong>.
+      </p>
+
+      <div class="hero-btns">
+        <button class="btn btn-sun" id="btn-hero-agendar">📅 Marcar um horário</button>
+        <a href="#servicos" class="btn btn-ghost">Ver o que fazemos</a>
+      </div>
+
+      <div class="hero-proof">
+        <div class="proof-item">
+          <div class="proof-num">1.2k+</div>
+          <div class="proof-label">famílias atendidas</div>
+        </div>
+        <div class="proof-item">
+          <div class="proof-num">10 anos</div>
+          <div class="proof-label">de história</div>
+        </div>
+        <div class="proof-item">
+          <div class="proof-num">5 ★</div>
+          <div class="proof-label">no Google</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-card">
+        <div class="hc-tag">🟢 Disponível hoje</div>
+        <div class="hc-icon">🐶🐱</div>
+        <div class="hc-name">PataFeliz Pet Shop</div>
+        <div class="hc-sub">Icaraí, Niterói – RJ &nbsp;·&nbsp; Todas as raças</div>
+        <div class="hc-services">
+          <div class="hc-srv"><div class="ico">🛁</div>Banho & Tosa</div>
+          <div class="hc-srv"><div class="ico">💊</div>Veterinário</div>
+          <div class="hc-srv"><div class="ico">🦴</div>Ração Premium</div>
+          <div class="hc-srv"><div class="ico">🏨</div>Hotel Pet</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ HISTÓRIA ══════════════════════════════════════ -->
+  <section id="historia">
+    <div class="wrap">
+      <div class="historia-grid">
+
+        <div class="historia-visual reveal">
+          <div class="hv-card-main">
+            <div class="hv-big-emoji">🐾</div>
+            <p class="hv-quote">
+              "Todo animal merece ser tratado com<br>
+              <strong>amor, respeito e alegria</strong>."
+            </p>
+          </div>
+          <div class="hv-float hv-f1">
+            <div class="f-icon">⭐</div>
+            <div>
+              <div class="f-text">Avaliação Google</div>
+              <div class="f-sub">5.0 · +320 avaliações</div>
+            </div>
+          </div>
+          <div class="hv-float hv-f2">
+            <div class="f-icon">🏆</div>
+            <div>
+              <div class="f-text">Melhor Pet Shop</div>
+              <div class="f-sub">Niterói, 2023 e 2024</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="historia-content">
+          <div class="eyebrow reveal">Nossa história</div>
+          <h2 class="display reveal d1">
+            Começou com um<br><em>cachorro chamado Bento.</em>
+          </h2>
+
+          <p class="reveal d2">
+            Em 2014, a médica veterinária <strong>Dra. Camila Rocha</strong> não conseguia
+            encontrar um lugar em Niterói que tratasse seu cão Bento com o carinho
+            que ele merecia. Então ela decidiu criar esse lugar.
+          </p>
+          <p class="reveal d2">
+            Hoje, 10 anos depois, somos uma equipe de <strong>12 apaixonados por
+            animais</strong> que acreditam que cada pet tem uma personalidade única
+            e merece ser tratado assim — com tempo, atenção e muita conversa
+            com o tutor.
+          </p>
+          <p class="reveal d3">
+            Não somos uma fábrica de banhos. Somos vizinhos que cuidam dos
+            seus bichinhos como se fossem nossos.
+          </p>
+
+          <div class="historia-team reveal d3">
+            <h4>Quem cuida do seu pet 🐾</h4>
+            <div class="team-list">
+              <div class="team-member">
+                <div class="tm-avatar" style="background: var(--sun);">CR</div>
+                <div>
+                  <div class="tm-name">Dra. Camila Rocha</div>
+                  <div class="tm-role">Médica Veterinária · Fundadora</div>
+                </div>
+              </div>
+              <div class="team-member">
+                <div class="tm-avatar" style="background: var(--leaf);">RL</div>
+                <div>
+                  <div class="tm-name">Rafael Lima</div>
+                  <div class="tm-role">Tosador Profissional · 8 anos de experiência</div>
+                </div>
+              </div>
+              <div class="team-member">
+                <div class="tm-avatar" style="background: var(--sun-dark);">JS</div>
+                <div>
+                  <div class="tm-name">Juliana Santos</div>
+                  <div class="tm-role">Auxiliar Veterinária · Especialista em felinos</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SERVIÇOS ══════════════════════════════════════ -->
+  <section id="servicos">
+    <div class="wrap">
+      <div class="srv-header">
+        <div class="eyebrow">O que fazemos</div>
+        <h2 class="display" style="text-align:center;">
+          Serviços feitos com <em>cuidado</em><br>e <strong>sem pressa</strong>
+        </h2>
+        <p class="lead" style="margin-top:14px;">
+          Cada atendimento tem horário reservado. Nada de fila, nada de correria.
+          Só o seu pet, com toda a nossa atenção.
+        </p>
+      </div>
+
+      <div class="srv-grid">
+        <div class="srv-card reveal">
+          <div class="srv-icon" style="background: var(--sun-soft);">🛁</div>
+          <h3>Banho & Tosa</h3>
+          <p>Usamos shampoos naturais e hipoalergênicos. Secagem com temperatura controlada e muita conversa com o pet para deixá-lo tranquilo durante tudo.</p>
+          <div class="srv-price">A partir de <span>R$ 45</span></div>
+        </div>
+
+        <div class="srv-card reveal d1">
+          <div class="srv-icon" style="background: var(--leaf-soft);">💊</div>
+          <h3>Consulta Veterinária</h3>
+          <p>A Dra. Camila e sua equipe fazem consultas de rotina, vacinação e diagnóstico. Você pode acompanhar ou receber um relatório por WhatsApp.</p>
+          <div class="srv-price">A partir de <span>R$ 90</span></div>
+        </div>
+
+        <div class="srv-card reveal d2">
+          <div class="srv-icon" style="background: #FFF5E0;">✂️</div>
+          <h3>Tosa Artística</h3>
+          <p>O Rafael adora um desafio criativo. Tosas personalizadas respeitando a raça, o pelo e — claro — a opinião do tutor. Você escolhe, ele realiza.</p>
+          <div class="srv-price">A partir de <span>R$ 65</span></div>
+        </div>
+
+        <div class="srv-card reveal">
+          <div class="srv-icon" style="background: #EDE0FF;">🏨</div>
+          <h3>Hotel PataFeliz</h3>
+          <p>Viajou? A gente cuida. Espaços individuais, alimentação com a ração do seu pet e fotos diárias enviadas pelo WhatsApp para você não sentir saudade.</p>
+          <div class="srv-price">A partir de <span>R$ 65</span>/dia</div>
+        </div>
+
+        <div class="srv-card reveal d1">
+          <div class="srv-icon" style="background: #E0F5FF;">🎓</div>
+          <h3>Adestramento Positivo</h3>
+          <p>Sem gritos, sem punição. Só reforço positivo, paciência e muita alegria. Trabalhamos comportamento com respeito ao tempo de cada animal.</p>
+          <div class="srv-price">A partir de <span>R$ 130</span></div>
+        </div>
+
+        <div class="srv-card reveal d2">
+          <div class="srv-icon" style="background: var(--sun-soft);">🚗</div>
+          <h3>Pet Táxi</h3>
+          <p>Sem tempo de trazer? A gente busca e devolve. Veículo adaptado, com cinto de segurança especial e um cuidador no banco de trás.</p>
+          <div class="srv-price">A partir de <span>R$ 28</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ DIFERENCIAIS ══════════════════════════════════ -->
+  <section id="diferenciais">
+    <div class="wrap">
+      <div class="dif-inner">
+
+        <div class="dif-left">
+          <div class="eyebrow">Por que a PataFeliz</div>
+          <h2 class="display">
+            A gente não trata<br>pets. A gente cuida de
+            <em>amigos.</em>
+          </h2>
+          <p class="lead">
+            Cada detalhe do nosso jeito de trabalhar foi pensado
+            para que você e seu pet se sintam em casa.
+          </p>
+
+          <div class="dif-features">
+            <div class="dif-item reveal">
+              <div class="dif-ico">❤️</div>
+              <div class="dif-text">
+                <h4>Time que realmente ama animais</h4>
+                <p>Todos da equipe têm ou tiveram pets. Não é trabalho, é vocação.</p>
+              </div>
+            </div>
+            <div class="dif-item reveal d1">
+              <div class="dif-ico">📸</div>
+              <div class="dif-text">
+                <h4>Fotos e atualizações em tempo real</h4>
+                <p>Mandamos fotos pelo WhatsApp durante o atendimento. Você acompanha tudo, mesmo de longe.</p>
+              </div>
+            </div>
+            <div class="dif-item reveal d2">
+              <div class="dif-ico">🌿</div>
+              <div class="dif-text">
+                <h4>Só produtos naturais e seguros</h4>
+                <p>Nada de produto genérico. Shampoos e cremes testados dermatologicamente para cada tipo de pelo.</p>
+              </div>
+            </div>
+            <div class="dif-item reveal d3">
+              <div class="dif-ico">🕐</div>
+              <div class="dif-text">
+                <h4>Horário agendado, sem fila</h4>
+                <p>Cada pet tem seu horário exclusivo. Sem estresse de espera, sem mistura desnecessária com outros animais.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dif-right reveal">
+          <div class="dif-stat">
+            <div class="dif-stat-num">1.2k+</div>
+            <div class="dif-stat-label">pets atendidos</div>
+          </div>
+          <div class="dif-stat">
+            <div class="dif-stat-num">10</div>
+            <div class="dif-stat-label">anos de história</div>
+          </div>
+          <div class="dif-stat">
+            <div class="dif-stat-num">5★</div>
+            <div class="dif-stat-label">Google Reviews</div>
+          </div>
+          <div class="dif-stat">
+            <div class="dif-stat-num">99%</div>
+            <div class="dif-stat-label">voltam sempre</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ PRODUTOS ══════════════════════════════════════ -->
+  <section id="produtos">
+    <div class="wrap">
+      <div class="prod-header">
+        <div>
+          <div class="eyebrow">Nossa loja</div>
+          <h2 class="display">Produtos que a gente<br><em>usaria nos nossos pets</em></h2>
+        </div>
+        <a href="#rodape" class="btn btn-ghost" style="font-size:14px;padding:11px 22px;">
+          Ver catálogo completo
+        </a>
+      </div>
+
+      <div class="prod-grid">
+        <div class="prod-card reveal">
+          <div class="prod-thumb" style="background:#FFF0E4;">
+            🦴
+            <span class="prod-badge">Mais pedido</span>
+          </div>
+          <div class="prod-body">
+            <div class="prod-cat">Alimentação</div>
+            <div class="prod-name">Ração Natural Cães</div>
+            <div class="prod-brand">GranPlus · 15 kg</div>
+            <div class="prod-footer">
+              <div class="prod-price">R$ 179</div>
+              <button class="prod-btn" aria-label="Adicionar">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="prod-card reveal d1">
+          <div class="prod-thumb" style="background:#EBF7EF;">🐱</div>
+          <div class="prod-body">
+            <div class="prod-cat">Alimentação</div>
+            <div class="prod-name">Ração Premium Gatos</div>
+            <div class="prod-brand">Premier · 10 kg</div>
+            <div class="prod-footer">
+              <div class="prod-price">R$ 149</div>
+              <button class="prod-btn" aria-label="Adicionar">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="prod-card reveal d2">
+          <div class="prod-thumb" style="background:#FFF5E0;">
+            🧴
+            <span class="prod-badge" style="background:var(--leaf);">Natural</span>
+          </div>
+          <div class="prod-body">
+            <div class="prod-cat">Higiene</div>
+            <div class="prod-name">Shampoo Aloe Vera</div>
+            <div class="prod-brand">PetNature · 500 ml</div>
+            <div class="prod-footer">
+              <div class="prod-price">R$ 42</div>
+              <button class="prod-btn" aria-label="Adicionar">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="prod-card reveal d3">
+          <div class="prod-thumb" style="background:#EDE0FF;">🎽</div>
+          <div class="prod-body">
+            <div class="prod-cat">Acessórios</div>
+            <div class="prod-name">Coleira Personalizada</div>
+            <div class="prod-brand">PataStyle · P / M / G</div>
+            <div class="prod-footer">
+              <div class="prod-price">R$ 54</div>
+              <button class="prod-btn" aria-label="Adicionar">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ DEPOIMENTOS ══════════════════════════════════ -->
+  <section id="depoimentos">
+    <div class="wrap">
+      <div class="dep-header">
+        <div class="eyebrow">Quem já veio nos contar</div>
+        <h2 class="display" style="text-align:center;">
+          As histórias que a gente<br><em>mais ama ouvir</em>
+        </h2>
+        <p class="lead" style="margin-top:14px;">
+          Mais de 1.200 famílias já confiaram seus pets à PataFeliz. Essas são algumas delas.
+        </p>
+      </div>
+
+      <div class="dep-grid">
+        <div class="dep-card reveal">
+          <div class="dep-stars">⭐⭐⭐⭐⭐</div>
+          <p class="dep-text">
+            "Minha Pipoca tem medo de tudo — secador, outros cães, barulho. Na PataFeliz a Juliana ficou do lado dela o tempo todo. Saiu tranquila e cheirosa. Chorei de emoção!"
+          </p>
+          <div class="dep-author">
+            <div class="dep-avatar" style="background: var(--sun);">FO</div>
+            <div>
+              <div class="dep-name">Fernanda Oliveira</div>
+              <div class="dep-pet">🐶 Tutora da Pipoca (Shih Tzu, 4 anos)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dep-card reveal d1">
+          <div class="dep-stars">⭐⭐⭐⭐⭐</div>
+          <p class="dep-text">
+            "O Merlim é gato persa e tem um temperamento difícil. A Dra. Camila conversou com ele, explicou cada procedimento em voz calma. Parece loucura, mas funcionou."
+          </p>
+          <div class="dep-author">
+            <div class="dep-avatar" style="background: var(--leaf);">MT</div>
+            <div>
+              <div class="dep-name">Marcos Teixeira</div>
+              <div class="dep-pet">🐱 Tutor do Merlim (Persa, 7 anos)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dep-card reveal d2">
+          <div class="dep-stars">⭐⭐⭐⭐⭐</div>
+          <p class="dep-text">
+            "Viajei por 10 dias e deixei o Toby e a Luna no hotel. Recebi foto toda manhã. Voltei e eles estavam tão felizes que quase não queriam ir embora — tomei um susto!"
+          </p>
+          <div class="dep-author">
+            <div class="dep-avatar" style="background: var(--sun-dark);">JM</div>
+            <div>
+              <div class="dep-name">Juliana Mendes</div>
+              <div class="dep-pet">🐶🐶 Tutora do Toby e da Luna</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CTA ═══════════════════════════════════════════ -->
+  <section id="agendar">
+    <div class="wrap">
+      <div class="cta-wrap">
+        <div>
+          <h2>Pronto para trazer<br>seu pet pra cá?</h2>
+          <p>
+            Primeira visita com <strong style="color:#fff;">10% de desconto</strong>.
+            Agendamento online em 2 minutos, sem burocracia.
+            Cancele até 2h antes sem custo nenhum.
+          </p>
+        </div>
+        <div class="cta-side">
+          <button class="btn btn-white" id="btn-cta-agendar">
+            📅 Marcar agora
+          </button>
+          <span class="cta-note">ou ligue: (21) 98456-7890</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ RODAPÉ ════════════════════════════════════════ -->
+  <footer id="rodape">
+    <div class="wrap">
+      <div class="rodape-grid">
+        <div>
+          <div class="rodape-brand">🐾 Pata<span>Feliz</span></div>
+          <p class="rodape-about">
+            Pet shop completo em Niterói, RJ. Desde 2014 cuidando
+            de animais com amor, responsabilidade e muito carinho.
+            Porque eles merecem o melhor.
+          </p>
+          <div class="rodape-socials">
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="https://wa.me/5521984567890" aria-label="WhatsApp">💬</a>
+          </div>
+        </div>
+
+        <div class="rodape-col">
+          <h4>Serviços</h4>
+          <ul>
+            <li><a href="#servicos">Banho & Tosa</a></li>
+            <li><a href="#servicos">Veterinária</a></li>
+            <li><a href="#servicos">Hotel Pet</a></li>
+            <li><a href="#servicos">Adestramento</a></li>
+            <li><a href="#servicos">Pet Táxi</a></li>
+          </ul>
+        </div>
+
+        <div class="rodape-col">
+          <h4>PataFeliz</h4>
+          <ul>
+            <li><a href="#historia">Nossa história</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#agendar">Agendamento</a></li>
+          </ul>
+        </div>
+
+        <div class="rodape-col">
+          <h4>Onde estamos</h4>
+          <div class="rodape-info-item">
+            <div class="r-ico">📍</div>
+            <p><strong>Endereço</strong>Rua das Acácias, 347<br>Icaraí – Niterói, RJ</p>
+          </div>
+          <div class="rodape-info-item">
+            <div class="r-ico">📞</div>
+            <p><strong>Telefone</strong>(21) 98456-7890</p>
+          </div>
+          <div class="rodape-info-item">
+            <div class="r-ico">🕐</div>
+            <p><strong>Horário</strong>Seg–Sex: 7h–20h<br>Sáb: 8h–18h · Dom: 9h–14h</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="rodape-bottom">
+        <span>© 2025 PataFeliz Pet Shop · Todos os direitos reservados</span>
+        <span>Feito com ❤️ por <a href="#">Douglas Fernandes</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══ MODAL ═════════════════════════════════════════ -->
+  <div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal">
+      <button class="modal-close" id="modal-close" aria-label="Fechar">✕</button>
+      <h3 id="modal-title">Marcar um horário 🐾</h3>
+      <p class="modal-sub">Preencha abaixo e entraremos em contato pelo WhatsApp para confirmar.</p>
+
+      <form id="form-agendar" novalidate>
+        <div class="fg-row">
+          <div class="fg">
+            <label for="f-nome">Seu nome</label>
+            <input type="text" id="f-nome" placeholder="Ex: Fernanda Silva" required />
+          </div>
+          <div class="fg">
+            <label for="f-tel">WhatsApp</label>
+            <input type="tel" id="f-tel" placeholder="(21) 99999-9999" required />
+          </div>
+        </div>
+
+        <div class="fg">
+          <label for="f-srv">Qual serviço você precisa?</label>
+          <select id="f-srv" required>
+            <option value="" disabled selected>Escolha um serviço</option>
+            <option>Banho & Tosa</option>
+            <option>Consulta Veterinária</option>
+            <option>Tosa Artística</option>
+            <option>Hotel PataFeliz</option>
+            <option>Adestramento Positivo</option>
+            <option>Pet Táxi</option>
+          </select>
+        </div>
+
+        <div class="fg-row">
+          <div class="fg">
+            <label for="f-pet">Nome do seu pet</label>
+            <input type="text" id="f-pet" placeholder="Ex: Pipoca" required />
+          </div>
+          <div class="fg">
+            <label for="f-data">Data preferida</label>
+            <input type="date" id="f-data" required />
+          </div>
+        </div>
+
+        <div class="fg">
+          <label for="f-obs">Algo importante sobre seu pet?</label>
+          <textarea id="f-obs" placeholder="Ex: Ela é bem medrosa com secador, prefere de manhã cedo..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Confirmar agendamento 🐾</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="alert" aria-live="polite">
+    <span id="toast-txt">✅ Feito!</span>
+  </div>
+
+  <!-- WhatsApp fixo -->
+  <a href="https://wa.me/5521984567890?text=Oi%2C%20gostaria%20de%20agendar%20um%20servi%C3%A7o%20na%20PataFeliz!"
+     target="_blank" rel="noopener noreferrer"
+     class="wa-btn" aria-label="Falar pelo WhatsApp">💬</a>
+
+  <!-- ══ JS ════════════════════════════════════════════ -->
+  <script>
+    'use strict';
+
+    /* ── Nav scroll ─────────────────────────────────── */
+    var nav = document.getElementById('nav');
+    window.addEventListener('scroll', function () {
+      nav.classList.toggle('stuck', window.scrollY > 18);
+    });
+
+    /* ── Hamburger / menu mobile ────────────────────── */
+    var hbg     = document.getElementById('hamburger');
+    var mobMenu = document.getElementById('mob-menu');
+
+    hbg.addEventListener('click', function () {
+      var isOpen = mobMenu.classList.toggle('open');
+      hbg.classList.toggle('open', isOpen);
+      hbg.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    mobMenu.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        mobMenu.classList.remove('open');
+        hbg.classList.remove('open');
+        hbg.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    /* ── Scroll reveal ──────────────────────────────── */
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add('in');
+          obs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.reveal').forEach(function (el) {
+      obs.observe(el);
+    });
+
+    /* ── Nav link highlight ─────────────────────────── */
+    var allSections = document.querySelectorAll('section[id], footer[id]');
+    var allNavLinks = document.querySelectorAll('.nav-links a');
+
+    window.addEventListener('scroll', function () {
+      var current = '';
+      allSections.forEach(function (s) {
+        if (window.scrollY >= s.offsetTop - 140) current = s.id;
+      });
+      allNavLinks.forEach(function (a) {
+        a.style.color = a.getAttribute('href') === '#' + current ? 'var(--sun)' : '';
+      });
+    });
+
+    /* ── Modal ──────────────────────────────────────── */
+    var overlay    = document.getElementById('overlay');
+    var modalClose = document.getElementById('modal-close');
+
+    function openModal() {
+      overlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeModal() {
+      overlay.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    ['btn-nav-agendar', 'btn-hero-agendar', 'btn-cta-agendar'].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.addEventListener('click', function (e) { e.preventDefault(); openModal(); });
+    });
+
+    modalClose.addEventListener('click', closeModal);
+
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay) closeModal();
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeModal();
+    });
+
+    /* ── Toast ──────────────────────────────────────── */
+    var toastEl  = document.getElementById('toast');
+    var toastTxt = document.getElementById('toast-txt');
+    var toastTmr = null;
+
+    function showToast(msg) {
+      toastTxt.textContent = msg;
+      toastEl.classList.add('show');
+      clearTimeout(toastTmr);
+      toastTmr = setTimeout(function () {
+        toastEl.classList.remove('show');
+      }, 4200);
+    }
+
+    /* ── Formulário ─────────────────────────────────── */
+    var formEl = document.getElementById('form-agendar');
+
+    formEl.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      var nome = document.getElementById('f-nome').value.trim();
+      var tel  = document.getElementById('f-tel').value.trim();
+      var srv  = document.getElementById('f-srv').value;
+      var pet  = document.getElementById('f-pet').value.trim();
+      var data = document.getElementById('f-data').value;
+
+      if (!nome || !tel || !srv || !pet || !data) {
+        showToast('⚠️ Preencha todos os campos antes de continuar.');
+        return;
+      }
+
+      closeModal();
+      formEl.reset();
+      showToast('✅ Recebemos seu pedido! Logo entraremos em contato, ' + nome.split(' ')[0] + ' 🐾');
+    });
+
+    /* ── Produtos (carrinho) ────────────────────────── */
+    document.querySelectorAll('.prod-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        showToast('🛒 Adicionado! Finalize pelo WhatsApp ou na loja.');
+      });
+    });
+
+    /* ── Data mínima (amanhã) ───────────────────────── */
+    var dataInput = document.getElementById('f-data');
+    if (dataInput) {
+      var hoje = new Date();
+      hoje.setDate(hoje.getDate() + 1);
+      var y = hoje.getFullYear();
+      var m = String(hoje.getMonth() + 1).padStart(2, '0');
+      var d = String(hoje.getDate()).padStart(2, '0');
+      dataInput.min = y + '-' + m + '-' + d;
+    }
+  </script>
+</body>
+</html>
